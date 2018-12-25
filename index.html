@@ -1,0 +1,271 @@
+
+<html>
+    <head>
+        <title>Eddy TE | My Portfolio</title>
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!-- Main stylesheet -->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+    
+        <main>
+          <div class="header-img parallax-container">
+          <header> 
+          <nav id="main-nav" class="transparent z-depth-0">
+            <div class="nav-wrapper">
+              <ul id="nav-mobile" class="right hide-on-small-only blue-text text-darken-2">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#connect">Connect</a></li>
+                <li><a class="modal-trigger" href="#modal-contact">Contact</a></li>
+              </ul>
+              <ul id="slide-out" class="side-nav">
+                <li><a href="#about">About</a></li>
+                  <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                      <li>
+                        <a class="collapsible-header">Projects</a>
+                        <div class="collapsible-body">
+                          <ul>
+                            <li><a id="side-fe" href="#projects">Front End</a></li>
+                            <li><a id="side-fs" href="#projects">Full Stack</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                <li><a href="#connect">Connect</a></li>
+                <li><a class="modal-trigger" href="#modal-contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+          </header>
+            <div class="parallax"><img src="./img/bg_imac.jpg"></div>
+            <div class="container" id="hero-text-container">
+                    <div class="row">
+                        <div class="col s12 center-align white-text">
+                          <img id="eddy-img" class="responsive-img" src="./img/eddy_face.png" />
+                          <h1 id="hero-title" itemprop="description"><span class="thin">Hello! I am </span><span class="bold">Eddy</span><span class="thin"> and I love to code. JavaScript is my favourite flavour.</span></h1>
+                        </div>
+                      <div class="col s12 center-align white-text">
+                        <div class="chip grey lighten-3">HTML</div><div class="chip grey lighten-3">CSS</div><div class="chip grey lighten-3">Bootstrap</div><div class="chip grey lighten-3">Materialize</div><br><div class="chip grey lighten-3">JavaScript</div><div class="chip grey lighten-3">Redux</div><div class="chip grey lighten-3">React Native</div><div class="chip grey lighten-3">ReactJS</div><br><div class="chip grey lighten-3">NodeJS</div><div class="chip grey lighten-3">Express</div><div class="chip grey lighten-3">MongoDB</div>
+                      </div>
+                    </div>
+                </div>
+          </div>
+          
+          <a id="btn-sidemenu" data-activates="slide-out" class="button-collapse btn-floating btn-flat btn-large waves-effect waves-light cyan lighten-2" style="bottom: 0px; right: 0px;"><i class="large mdi-navigation-menu"></i></a>
+          
+          <section id="about">
+          <div class="section blue-grey lighten-5 blue-grey-text text-darken-2">
+            <div class="row container">
+              <h2 class="header">About me.</h2>
+              <p class="flow-text">I have a degree in Computer Science.</p>
+                <p>I did 4 years of QA testing at Betclic (an online gambling company), integrated into the development teams,</p>
+                <p>I can make things look pretty with HTML and CSS. In 2017 I started to learn full-stack JavaScript, and currently studying it at the Wild Code School.</p>
+                <p> I love writing code, front and backend, for work and for fun. As a  up-and-coming developer, I consider myself to be pragmatic, curious and a good team player. </p>
+            </div>
+            <div class="wave"></div>
+          </div>
+          </section>
+          
+          <section id="projects">
+          <div class="section white blue-grey-text text-darken-2">
+            <div class="row container">
+              <h2 class="header">Projects.</h2>
+              <p class="flow-text">Here are a selection of my personal* projects.</p> 
+              
+          <div class="row">
+            <div class="col s12">
+              <ul class="tabs">
+                <li class="tab col s3"><a href="#proj-frontend">Front End</a></li>
+                <li class="tab col s3"><a class="active" href="#proj-fullstack">Full Stack</a></li>
+              </ul>
+            </div>
+            <div id="proj-frontend" class="col s12">
+                       
+              <div class="row project-row">
+                <div class="col s12 l8">
+                  <center>
+                    <img class="responsive-img" src="./img/projects/str.png" />
+                  </center>
+                </div>
+        
+                <div class="project-details col s12 l4">
+                  <h2>STREET NAME PARIS</h2>
+                  <p>Web application App React.js that allows you to search the history of any Paris address name </p>
+                  <a href="https://streetname.herokuapp.com" target="_blank" class="waves-effect waves-light btn cyan btn-flat white-text">Visit</a>
+                  <p><div class="chip grey lighten-3">ReactJS</div><div class="chip grey lighten-3">Materialize</div><div class="chip grey lighten-3">OpenDataAPI</div><div class="chip grey lighten-3">JavaScript</div><div class="chip grey lighten-3">jQuery</div></p>
+                </div>
+              </div>
+            
+              <div class="row project-row">
+                <div class="col s12 l8">
+                  <div class="browser">
+                    <div class="browser-top">
+                      <div class="hide-on-small-only">
+                        <div class="browser-circle"></div><div class="browser-circle"></div><div class="browser-circle"></div>
+                      </div>
+                      <div class="browser-address">
+                        https://eddyte.github.io/paris-photoblog/
+                      </div>
+                    </div>
+                    <img class="responsive-img" src="./img/projects/wil.png" />
+                  </div>
+                </div>
+        
+                <div class="project-details col s12 l4">
+                  <h2>WILDO CODA</h2>
+                  <p>Website showcase in the form of a photo blog for a photographer from Paris</p>
+                  <a href="https://eddyte.github.io/paris-photoblog/" target="_blank" class="waves-effect waves-light btn cyan btn-flat white-text">Visit</a>
+                  <p><div class="chip grey lighten-3">HTML</div><div class="chip grey lighten-3">CSS</div><div class="chip grey lighten-3">Bootstrap</div><div class="chip grey lighten-3">JavaScript</div><div class="chip grey lighten-3">jQuery</div></p>
+                </div>
+              </div>
+            
+                      
+                         
+            </div>
+            
+           
+            
+            <div id="proj-fullstack" class="col s12">
+            
+              <div class="row project-row">
+                <div class="col s12 l8">
+                  <center>
+                    <img class="responsive-img" src="./img/projects/app.png" />
+                  </center>
+                </div>
+        
+                <div class="project-details col s12 l4">
+                  <h2>APP NEWS</h2>
+                  <p>Native React Application aggregating articles from major daily newspapers</p>
+                  <a href="https://bit.ly/2R4JRso" target="_blank" class="waves-effect waves-light btn cyan btn-flat white-text">Visit</a>
+                  <p><div class="chip grey lighten-3">React Native</div><div class="chip grey lighten-3">NodeJS</div><div class="chip grey lighten-3">Express</div></p>
+                </div>
+              </div>
+              
+              <div class="row project-row">
+                <div class="col s12 l8">
+                  <div class="browser">
+                    <div class="browser-top">
+                      <div class="hide-on-small-only">
+                        <div class="browser-circle"></div><div class="browser-circle"></div><div class="browser-circle"></div>
+                      </div>
+                      <div class="browser-address">
+                        maraudons.fr
+                      </div>
+                    </div>
+                    <img class="responsive-img" src="./img/projects/mar.png" />
+                  </div>
+                </div>
+        
+                <div class="project-details col s12 l4">
+                  <h2>MARAUDONS</h2>
+                  <p>Online platform that identifies solidarity marauds, it is aimed at volunteers who want to contact the associations closest to their home that organize this type of action. </p>
+                  <a href="https://maraudons.fr" target="_blank" class="waves-effect waves-light btn cyan btn-flat white-text">Visit</a>
+                  <p><div class="chip grey lighten-3">ReactJS</div><div class="chip grey lighten-3">NodeJS</div><div class="chip grey lighten-3">Express</div><div class="chip grey lighten-3">MySQL</div></p>
+                </div>
+              </div>
+              
+                         
+            </div>
+          </div>
+              
+              <p>* Commercial projects are not currently included in my portfolio, get in touch for more info. For projects opened on Heroku there may short delay while the app is taken out of 'sleep mode'.</p>
+            </div>
+          </div>
+          </section>
+          
+          <section id="connect">
+          <div class="footer-img parallax-container white-text">
+            <div class="parallax"><img src="./img/bg_ideas.jpg"></div>
+            <div class="lightbulb"></div>
+            <div class="row container">
+              <h2 class="header">Follow.</h2>
+              <p class="flow-text">There are a variety of ways you can connect, follow and find me.</p>
+              <p class="center-align">
+                <a href="https://github.com/eddyte" target="_blank" class="waves-effect waves-light btn cyan darken-2 btn-flat white-text">GitHub</a>
+                <a href="https://linkedin.com/in/eddyte" target="_blank" class="waves-effect waves-light btn cyan darken-2 btn-flat white-text">LinkedIn</a>
+              </p>
+            </div>
+          </div>
+          </section>
+        </main>
+        
+        
+        <footer class="page-footer cyan white-text">
+          
+            <div class="row container">
+              <div class="pen"></div>
+              <h2 class="header">Contact.</h2>
+              <p class="flow-text">Got something to say? You can contact me directly...</p>
+              
+              <p class="center-align">
+                <a class="waves-effect waves-light btn cyan darken-2 btn-flat white-text modal-trigger" href="#modal-contact">Get In Touch</a>
+              </p>
+              
+            </div>
+          <div class="footer-copyright">
+            <div class="container">
+              &copy; 2018 Tedonline
+            </div>
+          </div>
+        </footer>
+        
+        <!-- Modal Contact -->
+        <div id="modal-contact" class="modal">
+          <form id="contact-form" method="POST" class="blue-grey-text">
+          <div class="modal-content">
+            <div class="center-align">
+              <img class="responsive-img" src="./img/aeroplanesm.png" />
+            </div>
+            <h4>Get in touch.</h4>
+              <div class="row form-name">
+                <div class="input-field col s12">
+                  <input id="name" type="text" name="name" required="true">
+                  <label for="name">Name</label>
+                </div>
+              </div>
+              <div class="row form-email">
+                <div class="input-field col s12">
+                  <input id="email" type="email" name="_replyto" required="true" class="validate">
+                  <label for="email" data-error="not valid" data-success="nice email">Email</label>
+                </div>
+              </div>
+              <div class="row form-message">
+                <div class="input-field col s12">
+                  <textarea id="message" name="message" class="materialize-textarea" required="true"></textarea>
+                  <label for="message">Message</label>
+                </div>
+              </div>
+              <div class="row form-subject">
+                <div class="input-field col s12">
+                  <input id="subject" type="text" name="_subject" value="Codemzy portfolio contact" />
+                  <label for="subject">Subject</label>
+                </div>
+              </div>
+              <div class="row form-verify">
+                <div class="input-field col s12">
+                  <input id="captcha" type="text" name="_gotcha" />
+                  <label for="captcha">Verify</label>
+                </div>
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button id="form-send" class="waves-effect waves-grey btn-flat cyan-text" type="submit">Submit</button>
+            <a id="form-cancel" href="" class="modal-action modal-close waves-effect waves-grey btn-flat">Cancel</a>
+          </div>
+          </form>
+        </div>
+    
+        
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+    </html>
