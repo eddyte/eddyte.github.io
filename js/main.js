@@ -31,7 +31,7 @@ $(document).ready(function(){
       });
     
     // CONTACT
-    var name = String.fromCharCode(113,101,101,107,108,101);
+    var name = "xrgobzll";
     
     // SUBMIT
     $('#contact-form').submit(function(event) {
