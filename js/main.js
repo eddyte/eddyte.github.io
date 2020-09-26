@@ -43,7 +43,7 @@ $(document).ready(function(){
           '_gotcha'             : $('input[name=_gotcha]').val()
       };
       $.ajax({
-          url: '//formspree.io/' + name + '@' + 'gmail' + '.' + 'com', 
+          url: '//formspree.io/' + name, 
           method: "POST",
           data: formData,
           dataType: "json"
